@@ -10,12 +10,13 @@ Resilience4j is a lightweight fault tolerance library designed for functional pr
 
 **Please note, the fallback method must return the same type as the original method and have same method signature. Otherwise, the FallbackExecutor won't locate a compatible fallback method and will throw a NoSuchMethodException.**
 
-![circuitBreakerFLow](https://github.com/user-attachments/assets/e7140a7f-0683-4152-9201-d30f62db3a3d)
 
 ## Let's try the demo
 In this example, we are working with two microservices: the Caller Service calls another service , while the Called Service get called from caller service. 
 
 Imagine if our called service encounters an issue. How should our system respond, and how does the Circuit-Breaker pattern step in to stop the entire system from collapsing, allowing it the space to recover.
+
+![circuitBreakerFLow](https://github.com/user-attachments/assets/e7140a7f-0683-4152-9201-d30f62db3a3d)
 
 
 **Response:**
