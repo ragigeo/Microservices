@@ -1,9 +1,9 @@
 # Circuitbreaker, Retry and Rate Limiter with resilience4j
 **Resilience4j's** Circuit Breaker - a powerful library that protects our application from potential failures!
 
-** Retry**  - It provides powerful functionality to handle transient failures and retry operations that may fail initially
+**Retry**  - It provides powerful functionality to handle transient failures and retry operations that may fail initially
 
-** Rate Limiter** - Rate limiting is a technique used to control the flow of requests to a system or API.
+**Rate Limiter** - Rate limiting is a technique used to control the flow of requests to a system or API.
 ## What's It All About?
 
 Resilience4j is a lightweight fault tolerance library designed for functional programming. Resilience4j provides higher-order functions (decorators) to enhance any functional interface, lambda expression or method reference with a Circuit Breaker, Rate Limiter, Retry or Bulkhead. You can stack more than one decorator on any functional interface, lambda expression or method reference. The advantage is that you have the choice to select the decorators you need and nothing else.
