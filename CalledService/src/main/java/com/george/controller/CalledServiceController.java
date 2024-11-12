@@ -1,0 +1,16 @@
+package com.george.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/CalledService")
+public class CalledServiceController {
+
+    @GetMapping
+    public String CalledService() {
+        return "CalledService is called from CallerService";
+    }
+
+}
