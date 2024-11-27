@@ -1,0 +1,6 @@
+server:
+  port: 8782
+
+spring:
+  application:
+    name: department-service
